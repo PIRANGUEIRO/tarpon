@@ -1,0 +1,11 @@
+{
+  "fob_total": 153700000000,
+  "ufs": 10,
+  "embarques": 120,
+  "exemplo": {
+    "cnpj": "11378117000120",
+    "ncm": "87038000",
+    "pais_origem": "Vietnã",
+    "valor_fob": 239574
+  }
+}

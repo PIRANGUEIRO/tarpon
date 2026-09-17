@@ -1,0 +1,32 @@
+name: CD
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    if: github.ref == 'refs/heads/main'
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install deps
+        run: pip install -r requirements.txt
+      - name: Build
+        run: |
+          python -m py_compile backend/app/main.py
+          find . -name "*.py" -exec python -m py_compile {} \;
+          echo "Build OK - $(find . -name '*.py' | wc -l) files compiled"
+      - name: Mock Deploy
+        run: |
+          echo "CD mock deploy - Tarpon Flagship"
+          echo "API_BASE=https://api.exemplo.com"
+          echo "Deploy simulado com sucesso - pronto para produção com .env real"
+      - name: Smoke test
+        run: |
+          python -c "import sys; print('Python', sys.version)"
+          ls -lh docs/images/
