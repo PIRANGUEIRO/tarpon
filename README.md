@@ -1,6 +1,7 @@
 # Tarpon - Flagship Comex Intelligence
 
 [![CI](https://github.com/PIRANGUEIRO/tarpon/actions/workflows/ci.yml/badge.svg)](https://github.com/PIRANGUEIRO/tarpon/actions) ![Python](https://img.shields.io/badge/python-3.11-3776AB) ![FastAPI](https://img.shields.io/badge/FastAPI-0.3.0-009688) ![Streamlit](https://img.shields.io/badge/Streamlit-1.35-FF4B4B) ![License](https://img.shields.io/badge/license-MIT-blue) ![Flagship](https://img.shields.io/badge/flagship-carro%20chefe-gold) ![Status](https://img.shields.io/badge/status-WIP%20%2F%20evoluindo-orange) ![Version](https://img.shields.io/badge/version-v0.3.0--alpha-yellow) ![Lines](https://img.shields.io/badge/lines-7.3k-blue) ![Files](https://img.shields.io/badge/files-77-lightgrey)
+![Python](https://img.shields.io/badge/Python-3.11-3776AB) ![FastAPI](https://img.shields.io/badge/FastAPI-0.3.0-009688) ![Streamlit](https://img.shields.io/badge/Streamlit-1.35-FF4B4B) ![Shell](https://img.shields.io/badge/Shell-bash-89E051) ![SQL](https://img.shields.io/badge/SQL-DuckDB-4479A1) ![Markdown](https://img.shields.io/badge/Markdown-docs-lightgrey)
 
 > **Plataforma de Inteligência Comercial para Comércio Exterior, Flagship, Carro Chefe.** 77 arquivos, 7.3k linhas, 14 routers FastAPI, 22 conectores, 5 motores de scoring e frontend Streamlit com Dashboard, Operações, Geo e Admin. **Sim, foi ambicioso demais** e por isso mesmo está aqui como meu projeto mais completo, documentado nível arquitetura corporativa.
 
@@ -420,4 +421,3 @@ MIT - ver `LICENSE`. Uso educacional/portfólio. Dados mockados, APIs mockadas.
 ---
 
 > **Fechamento Flagship:** Tarpon não é meu projeto mais "pronto" é meu projeto mais **honesto e ambicioso**. Ele prova que eu consigo ir do zero a 77 arquivos funcionando, e também que sei reconhecer quando fatiar. Se Lambari/Garoupa/Corvina são MVPs enxutos, Tarpon é a visão de plataforma. **É meu carro chefe justamente por ter sido ambicioso demais .**
-
